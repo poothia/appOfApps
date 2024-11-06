@@ -23,6 +23,7 @@ servingModel:
 
 runtime:
   storageUri: 'oci://quay.io/redhat-ai-services/modelcar-catalog:mistral-7b-instruct-v0.3'
+  timeout: 45m
   logLevel: DEBUG
   # max_content_length: Needs to be changed respective to the model run
   # Granite-8B-Instruct = 4096
