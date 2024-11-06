@@ -6,7 +6,7 @@ application:
 # Git Repository for the ArgoCD Application
 repo:
   url: https://github.com/redhat-composer-ai/appOfApps.git # Change This on Fork
-  branch: main
+  branch: modelcar
 
 # Namespace for the ArgoCD Application
 gitops:
